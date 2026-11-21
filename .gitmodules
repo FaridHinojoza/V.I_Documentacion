@@ -1,0 +1,3 @@
+[submodule ".agents/hub"]
+	path = .agents/hub
+	url = https://github.com/Shairr/Skills-proyectos.git

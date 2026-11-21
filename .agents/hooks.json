@@ -1,0 +1,12 @@
+{
+  "vi-hub-auto-sync": {
+    "enabled": true,
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "python hub/scripts/sync_context.py --hook",
+        "timeout": 15
+      }
+    ]
+  }
+}

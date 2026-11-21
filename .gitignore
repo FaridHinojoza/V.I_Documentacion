@@ -1,0 +1,40 @@
+# =====================================================================
+# .gitignore — Proyecto 2: Investigación Científica V.I (ESPE)
+# Repositorio: https://github.com/FaridHinojoza/V.I_Documentacion.git
+# =====================================================================
+
+# Aislamiento del Sistema de Software (Vive en su propio repositorio FaridHinojoza/V.I)
+VI/
+
+# Archivos de trabajo temporal y scratch de sesiones previas
+scratch/
+.agents/teamwork/
+.agents/skills/
+
+# Scripts y lotes temporales de edición de Google Docs / sed / json
+corr*_batch.json
+fix_rt.json
+insert_*.json
+replace_*.json
+style_*.json
+update_p*_tr.json
+fill_t*.sed
+current_doc_state.*
+last_user_prompt.txt
+scratch_doc_text.txt
+render_*.py
+generate_*.py
+
+# Archivos temporales de compilación LaTeX y sistema operativo
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.DS_Store
+Thumbs.db
+~$*

@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "path": ".agents/hub/skills",
+      "include_only": [
+        "redaccion-cientifica-espe",
+        "sincronizacion-contexto-vi"
+      ]
+    }
+  ]
+}
